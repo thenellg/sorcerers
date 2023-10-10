@@ -22,6 +22,8 @@ public class playerStats : MonoBehaviour
     public Image healthBar;
     public Image healthBarOutline;
 
+    public Button endTurnButton;
+
     // Update is called once per frame
     void Update()
     {

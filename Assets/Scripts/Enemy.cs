@@ -47,6 +47,14 @@ public class Enemy : MonoBehaviour
             player.health -= attackDamage;
         else
             player.health = 0;
+
+        if (player.health > 0)
+            endTurn();
+    }
+
+    public void endTurn()
+    {
+        FindObjectOfType<gameManager>().nextTurn(false);
     }
 
     // Update is called once per frame

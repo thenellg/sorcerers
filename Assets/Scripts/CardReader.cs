@@ -52,6 +52,18 @@ public class CardReader : MonoBehaviour
         childLocation = transform.GetSiblingIndex();
     }
 
+    public void resetCard()
+    {
+        setCardInfo();
+        player = FindObjectOfType<playerStats>();
+        enemy = FindObjectOfType<Enemy>();
+        goalLocation = transform.position = initialLocation;
+        goalRotation = transform.rotation = initialRotation;
+        transform.localScale = new Vector3(initialScale, initialScale, initialScale);
+        goalScale = initialScale;
+        childLocation = transform.GetSiblingIndex();
+    }
+
     private void Update()
     {
         if (moving)
@@ -97,6 +109,7 @@ public class CardReader : MonoBehaviour
 
     public void useCard()
     {
+        hideCard();
         if(player.turnsLeft > 0)
         {
             int attackDamage = cardInfo.attack;
@@ -116,9 +129,15 @@ public class CardReader : MonoBehaviour
 
             player.shield += cardInfo.shield;
 
-            //if (player.turnsLeft < 0)
-                //endTurn();
+            if (enemy.health > 0 && player.turnsLeft < 0)
+                endTurn();
         }
+    }
+
+    public void endTurn()
+    {
+        player.turnsLeft = 0;
+        FindObjectOfType<gameManager>().nextTurn(true);
     }
 
     public void setCardInfo()
