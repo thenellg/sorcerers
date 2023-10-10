@@ -153,8 +153,8 @@ public class CardReader : MonoBehaviour
         boostType.text = cardInfo.m_cardType.ToString().ToUpper();
         shieldType.text = cardInfo.m_cardType.ToString().ToUpper();
 
-        name.text = cardInfo.name.Replace("newline", "\n");
-        description.text = cardInfo.description.Replace("newline", "\n");
+        name.text = cardInfo.name.ToUpper();
+        description.text = cardInfo.description;
 
         background.color = cardInfo.backgroundColor;
         iconBottom.color = cardInfo.iconBottomColor;

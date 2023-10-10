@@ -1066,6 +1066,8 @@ MonoBehaviour:
   shieldType: {fileID: 8103117765276419074}
   background: {fileID: 8103117764387195514}
   iconBottom: {fileID: 8103117764621758381}
+  player: {fileID: 0}
+  enemy: {fileID: 0}
   initialLocation: {x: 0, y: 0, z: 0}
   initialRotation: {x: 0, y: 0, z: 0, w: 0}
   initialScale: 0
@@ -2155,13 +2157,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.99
+  m_fontSize: 37.9
   m_fontSizeBase: 17.99
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
