@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ccf850c6e67bc4d95596d761914cc1, type: 3}
+  m_Name: Frozone Test
+  m_EditorClassIdentifier: 
+  m_cardType: 1
+  name: FROZONE'S ICE BLAST
+  description: 'When freezing foes of ill repute,
+
+    Wear long-johns ''neath your
+    supersuit.'
+  spellType: HERO
+  image: {fileID: 21300000, guid: 0e641b794a186f049b72f532994c14c8, type: 3}
+  attack: 3
+  boost: 2
+  shield: 0
+  backgroundColor: {r: 0.27450982, g: 0.28627452, b: 0.27450982, a: 1}
+  iconBottomColor: {r: 0.6865753, g: 0.71599996, b: 0.6865753, a: 1}

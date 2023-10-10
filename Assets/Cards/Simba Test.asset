@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ccf850c6e67bc4d95596d761914cc1, type: 3}
+  m_Name: Simba Test
+  m_EditorClassIdentifier: 
+  m_cardType: 4
+  name: SIMBA'S ROAR
+  description: 'Beware the sound that shakes the trees
+
+    And brings the Jungle
+    to its knees.'
+  spellType: ANIMAL
+  image: {fileID: 21300000, guid: bc26cee6dc9acb34695fc1822fc71365, type: 3}
+  attack: 3
+  boost: 1
+  shield: 1
+  backgroundColor: {r: 0.34117648, g: 0.45098042, b: 0.29411766, a: 1}
+  iconBottomColor: {r: 0.75652176, g: 1, b: 0.65217394, a: 1}
