@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
@@ -19,6 +20,29 @@ public class gameManager : MonoBehaviour
     public GameObject winState;
     public GameObject loseState;
 
+    public List<int> tempHand = new List<int>();
+
+    private void Start()
+    {
+        tempHand.Clear();
+        tempHand.Add(Random.Range(0, cardDeck.Count));
+
+        while (tempHand.Count < 5)
+        {
+            int temp = Random.Range(0, cardDeck.Count);
+            if (!tempHand.Contains(temp))
+                tempHand.Add(temp);
+        }
+
+        Debug.Log(tempHand);
+
+        for (int i = 0; i < cardHands.Count; i++)
+        {
+            cardHands[i].gameObject.SetActive(true);
+            cardHands[i].cardInfo = cardDeck[tempHand[i]];
+            cardHands[i].setCardInfo();
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -30,6 +54,13 @@ public class gameManager : MonoBehaviour
             else if (enemy.health <= 0)
                 endGame(true);
 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            enemy.health = enemy.maxHealth;
+            player.health = player.maxHealth;
         }
     }
 
@@ -61,8 +92,7 @@ public class gameManager : MonoBehaviour
 
     void shuffleHand()
     {
-        List<int> tempHand = new List<int>();
-
+        tempHand.Clear();
         tempHand.Add(Random.Range(0,cardDeck.Count));
 
         while(tempHand.Count < 5)
@@ -77,9 +107,9 @@ public class gameManager : MonoBehaviour
         for (int i = 0; i < cardHands.Count; i++)
         {
             cardHands[i].resetCard();
+            cardHands[i].gameObject.SetActive(true);
             cardHands[i].cardInfo = cardDeck[tempHand[i]];
             cardHands[i].setCardInfo();
-            cardHands[i].gameObject.SetActive(true);
         }
     }
 

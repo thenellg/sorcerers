@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1636421622057382985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1636421622057382986}
+  - component: {fileID: 1636421622057382987}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1636421622057382986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636421622057382985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 509.9334, y: 236.02539, z: -2.0304005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1636421622057382987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636421622057382985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cca72bddbe63e2498045d72cea9ab99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+  isPlayerTurn: 1
+  cardDeck:
+  - {fileID: 11400000, guid: 17e0ad5f641fbcf449e116e1e8c2c16b, type: 2}
+  - {fileID: 11400000, guid: a30182c5ad766f64ab640e1222aecc25, type: 2}
+  - {fileID: 11400000, guid: 5b36a540147314e4cb679733ff1633bb, type: 2}
+  - {fileID: 11400000, guid: bec0becfd01ec4541b56b93c165caec8, type: 2}
+  - {fileID: 11400000, guid: 43b302c5c37b6d742a5b4011ef92b6de, type: 2}
+  - {fileID: 11400000, guid: 1edc771f381ca4d40975acd61ed99355, type: 2}
+  - {fileID: 11400000, guid: 8917847e666faaa4f9d442fb91b5e564, type: 2}
+  cardHands:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  cardHand: {fileID: 0}
+  playerCanvas: {fileID: 0}
+  enemyCanvas: {fileID: 0}
+  endCanvas: {fileID: 0}
+  winState: {fileID: 0}
+  loseState: {fileID: 0}
+  tempHand: 

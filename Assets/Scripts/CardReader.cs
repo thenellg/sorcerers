@@ -43,7 +43,6 @@ public class CardReader : MonoBehaviour
 
     private void Start()
     {
-        setCardInfo();
         player = FindObjectOfType<playerStats>();
         enemy = FindObjectOfType<Enemy>();
         goalLocation = initialLocation = transform.position;

@@ -20,7 +20,7 @@ public class Card : ScriptableObject
     public int boost;
     public int shield;
 
-
+    public GameObject attackImage;
 
     public Color backgroundColor;
     public Color iconBottomColor;

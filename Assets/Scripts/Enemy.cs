@@ -6,7 +6,7 @@ using TMPro;
 
 public class Enemy : MonoBehaviour
 {
-    [Range(0, 20)]
+    [Range(0, 40)]
     public int health = 20;
     public int maxHealth = 10;
     public List<Card.cardType> weakness;
