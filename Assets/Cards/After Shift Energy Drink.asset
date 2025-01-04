@@ -21,5 +21,6 @@ MonoBehaviour:
   attack: 3
   boost: 2
   shield: 1
-  backgroundColor: {r: 0.7924528, g: 0, b: 0, a: 1}
-  iconBottomColor: {r: 1, g: 0, b: 0, a: 1}
+  attackImage: {fileID: 0}
+  backgroundColor: {r: 0.376, g: 0.06307096, b: 0.024258062, a: 1}
+  iconBottomColor: {r: 0.60784316, g: 0.10196079, b: 0.039215688, a: 1}

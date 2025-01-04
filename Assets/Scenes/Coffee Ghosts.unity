@@ -492,11 +492,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242901893566532792, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_text
-      value: Exhaustion & Anxiety
+      value: Coffee Ghosts
       objectReference: {fileID: 0}
     - target: {fileID: 2242901893566532792, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_fontSize
-      value: 30.7
+      value: 40.25
       objectReference: {fileID: 0}
     - target: {fileID: 2242901893752346717, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -518,6 +518,26 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 195.0837
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 230.6636
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.1913
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 26.099
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316983, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8d1d74906839fa54198d6df98e4cdd50, type: 3}
     - target: {fileID: 2242901895124589841, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_Name
       value: Enemy

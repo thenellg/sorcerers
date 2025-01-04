@@ -480,7 +480,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2242901893566532792, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_text
-      value: Bill
+      value: Tired Barista
       objectReference: {fileID: 0}
     - target: {fileID: 2242901893752346717, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -498,6 +498,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.0283
       objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 189.5955
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 368.0883
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.5425
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.0313
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316983, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 50388a291259f0247a171e96f7ddb7aa, type: 3}
     - target: {fileID: 2242901895124589841, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_Name
       value: Enemy
