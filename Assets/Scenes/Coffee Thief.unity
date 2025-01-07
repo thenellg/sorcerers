@@ -482,6 +482,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Coffee Thief
       objectReference: {fileID: 0}
+    - target: {fileID: 2242901893752346716, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3d79d5e028fb9d5438e744b72209bf23, type: 3}
+    - target: {fileID: 2242901893752346716, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901893752346716, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901893752346716, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2242901893752346717, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 701.2564
