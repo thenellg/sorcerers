@@ -16,7 +16,7 @@ MonoBehaviour:
   name: Your Favorite Customer
   description: "Seeing them every day,\r\nMakes your work a little less gray\r"
   spellType: CUSTOMER
-  image: {fileID: 21300000, guid: d4349818ecc4c954dae8a9763c835843, type: 3}
+  image: {fileID: 21300000, guid: bc3cdfe21335ca641b02f0620fdbc8f5, type: 3}
   attack: 5
   boost: 1
   shield: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   description: "After a shift works you stupid,\r\nPound this back to again feel
     human.\r"
   spellType: CAFFEINE
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: b13c928b7e175d343b14012c16852dc7, type: 3}
   attack: 3
   boost: 2
   shield: 1

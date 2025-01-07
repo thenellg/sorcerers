@@ -16,7 +16,7 @@ MonoBehaviour:
   name: A Day Off
   description: "You know why this spell is wishful\r\nCapitalism sucks\r."
   spellType: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: f35fab3d1b0d4474291b4176c407e940, type: 3}
   attack: 3
   boost: 1
   shield: 1

@@ -17,7 +17,7 @@ MonoBehaviour:
   description: "To get up early and deal with work,\r\nTakes a strength that knows
     it worth\r"
   spellType: WORK
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: eaec4a7eba5b48741a2c22ee3cf2c448, type: 3}
   attack: 5
   boost: 0
   shield: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   description: "If they\u2019re going to be thrown away,\r\nWe might as well make
     it a game\r"
   spellType: FOOD
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 8c5fcafa2f5cd18468f1b5f87c9838c5, type: 3}
   attack: 2
   boost: 1
   shield: 2

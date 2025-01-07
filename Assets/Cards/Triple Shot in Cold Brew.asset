@@ -17,7 +17,7 @@ MonoBehaviour:
   description: "When a jump is quickly needed,\r\nYour energy will boost then be
     depleted\r"
   spellType: CAFFEINE
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: add351d3e60ed984693c890c712a9f88, type: 3}
   attack: 4
   boost: 1
   shield: 0
