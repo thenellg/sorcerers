@@ -17,11 +17,17 @@ public class Enemy : MonoBehaviour
 
     public TextMeshProUGUI healthInfo;
     public Image healthBar;
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<playerStats>();
+    }
+
+    public void triggerAttackAnim()
+    {
+        anim.SetTrigger("Attack");
     }
 
     public void attack()
@@ -47,6 +53,7 @@ public class Enemy : MonoBehaviour
             player.health -= attackDamage;
         else
             player.health = 0;
+
 
         if (player.health > 0)
             endTurn();

@@ -515,6 +515,10 @@ PrefabInstance:
       value: -1.0283
       objectReference: {fileID: 0}
     - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: maxHealth
       value: 30
       objectReference: {fileID: 0}

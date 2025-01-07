@@ -115,6 +115,12 @@ public class gameManager : MonoBehaviour
 
     void enemyTurn()
     {
+        enemy.triggerAttackAnim();
+        Invoke("enemyTurnAttack", 1f);
+    }
+
+    void enemyTurnAttack()
+    {
         enemy.attack();
 
     }

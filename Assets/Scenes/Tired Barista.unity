@@ -514,6 +514,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.0283
       objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: health
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: weakness.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: weakness.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242901894080316977, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
+      propertyPath: weakness.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2242901894080316980, guid: 6b7827f9d68b8334f81523dc6e66593d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 189.5955
